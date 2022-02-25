@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2018 Chris Rrapi
+Copyright (c) 2018-2020 crrapi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -27,11 +27,10 @@ with open("README.md", "r") as f:
     long_description = f.read()
 setuptools.setup(
     name="async_cse",
-    version="0.2.7",
+    version="0.3.0",
     description="API wrapper for the Google Custom Search JSON API. https://developers.google.com/custom-search/v1/overview",
     url="https://github.com/crrapi/async-cse",
-    author="Chris Rrapi",
-    author_email="toadawes12@gmail.com",
+    author="crrapi",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
